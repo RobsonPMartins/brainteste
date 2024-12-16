@@ -12,7 +12,7 @@ Nesse desafio criei uma tela de login com autenticação JWT, aonde o usuário c
 ## Tecnologias
 
 - Frontend: HTML, CSS e JavaScript
-- Backend: Usei Node.js
+- Backend: Node.js
 - Autenticação: JWT
   
 ## Funcionalidades
