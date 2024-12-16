@@ -7,7 +7,7 @@ Nesse desafio criei uma tela de login com autenticação JWT, aonde o usuário c
 - Desenvolver uma tela de login simples.
 - Usar a autenticação com JWT
 - Usei dados fictícios para validar os dados
-- Criei um diagrama UML básico com o auxilio da plataforma excalidraw
+- Criei um diagrama UML básico com o auxílio da plataforma excalidraw
   
 ## Tecnologias
 
