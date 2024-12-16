@@ -1,0 +1,83 @@
+/* Hello World */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #fff;
+    --primary-color: #4655ca;
+    --secondary-color: #666;
+    --title-size: 2.25rem;
+    --paragraph-size: 1rem;
+    --font-size: 1.125rem;
+    --max-width: 25rem;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+}
+
+.containerLogin{
+    border: .0625rem solid var(--primary-color);
+    background-color: var(--background-color);
+    box-shadow: 0 .1875rem .375rem var(--primary-color);
+    border-radius: .3125rem;
+    width: var(--max-width);
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.containerLogin h2{
+    font-size: var(--title-size);
+    color: var(--primary-color);
+}
+
+.containerLogin input{
+    width: 100%;
+    padding: .625rem;
+    border-radius: .3125rem;
+    background-color: #e3e3e3;
+}
+
+input:focus{
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.button{
+    padding: .625rem 0;
+    border: none;
+    border-radius: .3125rem;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    color: var(--background-color);
+    font-size: var(--paragraph-size);
+}
+
+.button:hover{
+    background-color: var(--secondary-color);
+}
+
+.mensagem{
+    font-size: var(--font-size);
+}
+
+@media (max-width: 600px){
+    .containerLogin{
+        margin: 0 10px;
+        padding: var(--font-size);
+    }
+    input, button{
+        font-size: var(--font-size);
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "brainteste",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobsonPMartins/brainteste.git"
+  },
+  "author": "Robson Pereira Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobsonPMartins/brainteste/issues"
+  },
+  "homepage": "https://github.com/RobsonPMartins/brainteste#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

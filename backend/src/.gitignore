@@ -1,0 +1,4 @@
+# Arquivos que devem ser ignorados e usados apenas e ambiente
+# de desenvolvimento
+
+node_modules/
